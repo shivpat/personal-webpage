@@ -6,6 +6,14 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
+
+ .img-responsive {
+ 	max-width: 300px;
+	margin-top: 2rem;
+	margin-left: 1rem;
+    border-radius: 25px;
+    border: 2px solid #fff;
+ }
  
 
 #portfolio .portfolio-item {
@@ -92,7 +100,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #76382b;
 }
 
 hr.star-primary {
@@ -101,7 +109,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #fff;
-    background-color: #21361c;
+    background-color: #76382b;
 }
 
 
@@ -413,10 +421,10 @@ body {
 }
 
 #portfolio {
-	background-color: #21361c;
+	background-color: #76382b;
 	color: #e4e6e5;
-	padding-top: 50px;
-	padding-bottom: 15px;
+	//padding-top: 50px;
+	//padding-bottom: 50px;
 }
 
 	.title-row {
@@ -623,13 +631,13 @@ body {
 	
 	#contact-row-4 .col-12 .hover-text {
 		display: none;
-		font-size: 20px;
+		font-size: 0px;
 	}
 
 #slide-7 {
 	background-color: #e4e6e5;
 	color: #4e4e4e;
-	font-size: 35px;
+	font-size: 25px;
 	line-height: 50px;
 	text-align: center;
 }
